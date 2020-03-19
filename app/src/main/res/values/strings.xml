@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SecondApp</string>
+    <string name="button1">Button</string>
+    <string name="info">请输入</string>
+    <string name="TeamName">Team_1</string>
+    <string name="Score">0</string>
+    <string name="btn_2">+2point</string>
+    <string name="btn_1">+3point</string>
+    <string name="btn_3">+1point</string>
+    <string name="Reset">reset</string>
+</resources>
