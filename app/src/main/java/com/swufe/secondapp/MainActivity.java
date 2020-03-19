@@ -7,29 +7,22 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+    EditText input;
     TextView t;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        t = findViewById(R.id.textView2);
+        input = findViewById(R.id.editText);
+        t = findViewById(R.id.textView);
 
     }
-    public void onClick1(View btn){
-         showScore(3);
+    public void onClick(View btn){
+        String str = input.getText().toString();
+        double tem = Double.parseDouble(str)*1.8+32;
+        t.setText("" + tem);
+
     }
-    public void onClick2(View btn){
-        showScore(2);
-    }
-    public void onClick3(View btn){
-        showScore(1);
-    }
-    public void onClick4(View btn){
-        t.setText("0");
-    }
-    private void showScore(int i){
-        String oldScore =(String) t.getText();
-        int newScore = Integer.parseInt(oldScore) + i;
-        t.setText("" + newScore);
-    }
+
+
 }
