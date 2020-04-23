@@ -14,4 +14,5 @@
     <string name="open">进行汇率的配置</string>
     <string name="Save">保存</string>
     <string name="Setting">设置</string>
+    <string name="open_list">OpenList</string>
 </resources>
