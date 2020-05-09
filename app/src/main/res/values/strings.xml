@@ -15,4 +15,5 @@
     <string name="Save">保存</string>
     <string name="Setting">设置</string>
     <string name="open_list">OpenList</string>
+    <string name="find">请输入查询关键词</string>
 </resources>
