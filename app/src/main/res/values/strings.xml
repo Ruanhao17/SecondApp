@@ -16,4 +16,9 @@
     <string name="Setting">设置</string>
     <string name="open_list">OpenList</string>
     <string name="find">请输入查询关键词</string>
+    <string name="viewpage">viewpage</string>
+    <string name="vote">在线投票</string>
+    <string name="vote1">赞成</string>
+    <string name="vote2">反对</string>
+    <string name="vote3">弃权</string>
 </resources>

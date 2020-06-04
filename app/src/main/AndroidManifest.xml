@@ -14,22 +14,24 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".SimpleList" />
-        <activity android:name=".RateActivity"></activity>
-        <activity android:name=".RateList3Activity" />
-        <activity android:name=".MyAadpter" />
-        <activity android:name=".RateList2Activity">
+        <activity android:name=".VoteActivity"></activity>
+        <activity android:name=".MyPageAdapter" />
+        <activity android:name=".ViewPage">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".SimpleList" />
+        <activity android:name=".RateActivity" />
+        <activity android:name=".RateList3Activity" />
+        <activity android:name=".MyAadpter" />
+        <activity android:name=".RateList2Activity"></activity>
         <activity android:name=".RateListActivity" />
         <activity android:name=".ConfigActivity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".GetInfoActivity">
-        </activity>
+        <activity android:name=".GetInfoActivity" />
     </application>
 
 </manifest>
